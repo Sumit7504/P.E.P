@@ -1,0 +1,51 @@
+# Prompt Engineering Master Repo Structure
+
+```
+prompt-engineering-roadmap/
+│── README.md
+│── roadmap.md
+│── notes/
+│   ├── day1-basics.md
+│   ├── day2-tokens-models.md
+│   └── ...
+│── prompt-types/
+│   ├── zero-shot.md
+│   ├── few-shot.md
+│   ├── chain-of-thought.md
+│   ├── structured-output.md
+│   └── ...
+│── frameworks/
+│   ├── crispe.md
+│   ├── race.md
+│   ├── pastel.md
+│   ├── costar.md
+│   └── react-prompts.md
+│── agent-systems/
+│   ├── 3-agent-system.md
+│   └── workflow-diagrams.md
+│── ai-dev-tools/
+│   ├── react-generation-prompts.md
+│   ├── api-generation-prompts.md
+│   ├── sql-prompts.md
+│   └── debugging-prompts.md
+│── projects/
+│   ├── resume-generator/
+│   │   ├── frontend/
+│   │   ├── backend/
+│   │   └── prompts.md
+│   ├── code-assistant/
+│   │   ├── react-ui/
+│   │   ├── server/
+│   │   └── prompts.md
+│   ├── mini-rag/
+│   │   ├── embeddings/
+│   │   └── app/
+│   └── website-builder/
+│       ├── api/
+│       ├── ui/
+│       └── prompts.md
+│── tests/
+│── certificate-proof/
+│   ├── courses.md
+│   └── proofs/
+```
