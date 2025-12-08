@@ -83,12 +83,10 @@ Example:
 ## 🏗️ Basic Prompt Structure (Very Important!)
 
 [Role / Context]
-
-[Task]
-[Requriment]
-[Constraints]
-[Output Format]
-
+[Task]  
+[Requriment]  
+[Constraints]  
+[Output Format]  
 [Example] (optional)
 
 ### ✔ Exercise 1 — React Component Prompt
@@ -97,18 +95,18 @@ Question--
 Write a prompt to generate a **responsive login form** using React + Tailwind.
 
 Answer--
-[Task]Build a fully responsive login form using React and Tailwind CSS.
-[Requriment]It should include email, password, remember me checkbox, and a submit button.
-[Constraints]The layout must be centered and mobile friendly.
+[Task]Build a fully responsive login form using React and Tailwind CSS.  
+[Requriment]It should include email, password, remember me checkbox, and a submit button.  
+[Constraints]The layout must be centered and mobile friendly.  
 [Output]Use clean JSX and do not add unnecessary components.
 
 question--
 Write a prompt to generate a responsive navbar with a hamburger menu using React + Tailwind.
 
 Answer--
-Generate a responsive navbar using React and Tailwind CSS.
-Include a logo, 3 navigation links, and a hamburger menu for mobile screens.
-Navbar should collapse into a menu drawer on small screens.
+Generate a responsive navbar using React and Tailwind CSS.  
+Include a logo, 3 navigation links, and a hamburger menu for mobile screens.  
+Navbar should collapse into a menu drawer on small screens.  
 Return clean JSX only.
 
 Question--
@@ -116,11 +114,12 @@ Write a prompt to generate a todo app UI with add/delete functionality.
 
 Answer--
 Create a simple todo app UI using React and Tailwind CSS.
+
 Features:
 
 - Add task
 - Delete task
-- Display list of tasks
+- Display list of tasks  
   Code must include useState hooks and clean JSX.
   Make the UI centered and minimal.
 
@@ -129,9 +128,10 @@ Features:
 Question--
 Write a prompt to generate a Node.js API route for user registration.
 
-Answer--
-[Role]Act as a senior Node.js developer.
+Answer--  
+[Role]Act as a senior Node.js developer.  
 [Task]Generate a complete API route for user registration using Express.js.
+
 [Requirements]
 
 - Accept username, email, and password in the request body
@@ -140,14 +140,16 @@ Answer--
 - Return JSON response with success or error message
 - Include error handling and proper HTTP status codes
 - Provide clean, commented code
-  [Output] only code inside a single fenced code block.
+
+[Output] only code inside a single fenced code block.
 
 ### ✔ Exercise 3 — Debug Prompt
 
 Write a prompt to fix an error in a Next.js component.
 
-[Role]Act as an expert Next.js developer.
+[Role]Act as an expert Next.js developer.  
 [Task]Debug the following component and fix all errors.
+
 [Requirements]
 
 - Identify syntax or runtime errors
@@ -155,9 +157,12 @@ Write a prompt to fix an error in a Next.js component.
 - Correct JSX and props issues
 - Keep functionality intact
 - Explain briefly what was fixed
-  [Output] only the corrected code in a fenced code block
+
+[Output] only the corrected code in a fenced code block
 
 [Example]
+
+```code
 import React, { useState } from 'react';
 
 function Counter() {
@@ -172,9 +177,11 @@ return (
 }
 
 export default Counter;
+```
 
 [correct-code] --
 
+```code
 import React, { useState } from 'react';
 
 function Counter() {
@@ -190,3 +197,4 @@ return (
 }
 
 export default Counter;
+```
