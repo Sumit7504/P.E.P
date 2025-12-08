@@ -75,15 +75,3 @@ MIT License — Free to use, modify, and share.
 Open to improvements, additional patterns, or new project examples.
 
 ---
-
-# 🔥 **3. BADGES + BRANDING (Add under title)**
-
-Paste this at top of README:
-
-```md
-![Status](https://img.shields.io/badge/Project-Active-brightgreen)
-![AI](https://img.shields.io/badge/Focus-Prompt%20Engineering-blue)
-![Developer](https://img.shields.io/badge/Role-AI%20Web%20Fullstack-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![GitHub](https://img.shields.io/badge/Maintained-Yes-success)
-```
