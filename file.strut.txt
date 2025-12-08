@@ -1,47 +1,80 @@
 prompt-engineering-roadmap/
 │── README.md
-│── roadmap.md
+│
 │── notes/
-│ ├── day1-basics.md
-│ ├── day2-tokens-models.md
-│ └── ...
+│   ├── day1-basics.md
+│   ├── day2-tokens-models.md
+│   ├── day3-patterns.md
+│   ├── day4-advanced.md
+│   └── ...
+│
 │── prompt-types/
-│ ├── zero-shot.md
-│ ├── few-shot.md
-│ ├── chain-of-thought.md
-│ ├── structured-output.md
-│ └── ...
+│   ├── zero-shot.md
+│   ├── few-shot.md
+│   ├── chain-of-thought.md
+│   ├── structured-output.md
+│   ├── toolformer.md
+│   └── multi-step-reasoning.md
+│
 │── frameworks/
-│ ├── crispe.md
-│ ├── race.md
-│ ├── pastel.md
-│ ├── costar.md
-│ └── react-prompts.md
+│   ├── crispe.md
+│   ├── race.md
+│   ├── pastel.md
+│   ├── costar.md
+│   └── react-prompts.md          ← (this fits well here)
+│
 │── agent-systems/
-│ ├── 3-agent-system.md
-│ └── workflow-diagrams.md
+│   ├── single-agent.md
+│   ├── multi-agent.md
+│   ├── 3-agent-system.md
+│   ├── workflow-diagrams.md
+│   └── agent-patterns.md
+│
 │── ai-dev-tools/
-│ ├── react-generation-prompts.md
-│ ├── api-generation-prompts.md
-│ ├── sql-prompts.md
-│ └── debugging-prompts.md
+│   ├── react-generation-prompts.md
+│   ├── nextjs-prompts.md
+│   ├── api-generation-prompts.md
+│   ├── sql-prompts.md
+│   ├── database-schema-prompts.md
+│   └── debugging-prompts.md
+│
 │── projects/
-│ ├── resume-generator/
-│ │ ├── frontend/
-│ │ ├── backend/
-│ │ └── prompts.md
-│ ├── code-assistant/
-│ │ ├── react-ui/
-│ │ ├── server/
-│ │ └── prompts.md
-│ ├── mini-rag/
-│ │ ├── embeddings/
-│ │ └── app/
-│ └── website-builder/
-│ ├── api/
-│ ├── ui/
-│ └── prompts.md
+│   ├── resume-generator/
+│   │   ├── frontend/
+│   │   ├── backend/
+│   │   ├── prompts.md
+│   │   └── README.md
+│   │
+│   ├── code-assistant/
+│   │   ├── react-ui/
+│   │   ├── server/
+│   │   ├── prompts.md
+│   │   └── README.md
+│   │
+│   ├── mini-rag/
+│   │   ├── embeddings/
+│   │   ├── app/
+│   │   ├── vector-db.md
+│   │   └── README.md
+│   │
+│   └── website-builder/
+│       ├── api/
+│       ├── ui/
+│       ├── prompts.md
+│       └── README.md
+│
 │── tests/
+│   ├── prompt-tests.md
+│   ├── examples/
+│   └── evaluation-metrics.md
+│
 │── certificate-proof/
-│ ├── courses.md
-│ └── proofs/
+│   ├── courses.md
+│   └── proofs/               ← (PNG, PDF, screenshot)
+│
+└── resources/
+    ├── books.md
+    ├── papers.md
+    ├── university-material.md
+    ├── industry-guides.md
+    └── templates.md
