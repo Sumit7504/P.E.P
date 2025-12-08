@@ -85,7 +85,7 @@ Example:
 [Role / Context]
 [Task]  
 [Requriment]  
-[Constraints]  
+[Constraints]-- limitation or restriction  
 [Output Format]  
 [Example] (optional)
 
