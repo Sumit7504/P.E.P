@@ -131,7 +131,7 @@ Temperature = 1
   `In addition, structure your code in a clean component-based format. Each section should be placed in a separate file such as Hero.jsx, Features.jsx, etc. Use Tailwind's utility classes. Use proper typography, spacing, and layout best practices. The output should be clean and easy to understand. You may also generate sample text or placeholder text for the content. Continue generating code until the entire landing page is complete. Do not skip any section. Make sure each component contains responsive design behavior for tablet and mobile devices. If possible, suggest improvements to the design system and reusable UI components that can be extracted into a shared folder. Also list possible UI variants or improvements that can be made using Tailwind.`
 
 - Test if the model handles it
-  `Your prompt is extremely long → this is a perfect example for Day 3 (Context Window + Chunking).`
+  `Your prompt is extremely long → this is a perfect example for (Context Window + Chunking).`
 
 `If I generate the entire landing page + separate components + improvements + design system in one single message, the output may exceed message limits.`
 
