@@ -45,7 +45,7 @@ This is why prompts must be like **clean code**.
 
 ## The Three Prompt Roles
 
-### 1️⃣ **System Prompt** (Brain Setup)
+### 1 **System Prompt** (Brain Setup)
 
 Sets:
 
@@ -60,7 +60,7 @@ Example:
 
 ---
 
-### 2️⃣ **Developer Prompt** (Internal Instructions)
+### 2 **Developer Prompt** (Internal Instructions)
 
 Hidden from user.  
 Used for app logic, constraints.
@@ -72,7 +72,7 @@ Example:
 
 ---
 
-### 3️⃣ **User Prompt** (Actual Request)
+### 3 **User Prompt** (Actual Request)
 
 Example:
 
@@ -80,7 +80,7 @@ Example:
 
 ---
 
-## 🏗️ Basic Prompt Structure (Very Important!)
+## Basic Prompt Structure (Very Important!)
 
 [Role / Context]
 [Task]  
@@ -89,7 +89,7 @@ Example:
 [Output Format]  
 [Example] (optional)
 
-### ✔ Exercise 1 — React Component Prompt
+### Exercise 1 — React Component Prompt
 
 Question--
 Write a prompt to generate a **responsive login form** using React + Tailwind.
@@ -123,7 +123,7 @@ Features:
   Code must include useState hooks and clean JSX.
   Make the UI centered and minimal.
 
-### ✔ Exercise 2 — Backend Prompt
+### Exercise 2 — Backend Prompt
 
 Question--
 Write a prompt to generate a Node.js API route for user registration.
@@ -143,7 +143,7 @@ Answer--
 
 [Output] only code inside a single fenced code block.
 
-### ✔ Exercise 3 — Debug Prompt
+### Exercise 3 — Debug Prompt
 
 Write a prompt to fix an error in a Next.js component.
 
