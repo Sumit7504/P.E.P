@@ -12,7 +12,7 @@ It is a skill used to:
 - Generate UI, APIs, SQL, documents, content
 - Automate tasks in web applications
 
----
+## link -- https://aws.amazon.com/what-is/prompt-engineering/
 
 ## Why Prompt Engineering Matters for Web Full-Stack Developers
 
@@ -41,7 +41,7 @@ LLMs (GPT, Claude, Gemini, Llama):
 
 This is why prompts must be like **clean code**.
 
----
+## link -- https://aws.amazon.com/what-is/large-language-model/
 
 ## The Three Prompt Roles
 
