@@ -6,8 +6,6 @@ You give no example.
 You only give instructions.
 AI must figure out everything itself.
 
-## Zero-Shot Prompt
-
 ```
 Generate a professional Features section using React and TailwindCSS.
 Include four features, each with an icon, title, and a short description.
