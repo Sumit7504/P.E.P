@@ -65,3 +65,17 @@ COSTAR Framework
 | A | Audience |
 | R | Response Format |
 ```
+
+## Structured Output (VERY IMPORTANT)
+
+- Unstructured Output (Bad)
+  Here is your code and explanation mixed together...
+
+- Structured Output (Professional)
+
+{
+"componentName": "LoginForm",
+"files": ["Login.jsx", "styles.css"],
+"description": "Responsive login form",
+"code": "<code here>"
+}
